@@ -1,14 +1,16 @@
 // ! Rock Paper Scissors - Console
 
-// Function to randomly choose a move.
+// This function to randomly chooses a move for the computer.
 function computerPlay() {
   const playOptions = ["rock", "paper", "scissors"];
   return playOptions[Math.floor(Math.random() * playOptions.length)];
 }
 
+// Variabels to store the amount of wins
 let playerWins = 0;
 let computerWins = 0;
 
+// This function plays one round of the game
 function playRound(playerSelection, computerSelection) {
   playerSelection = playerSelection.toLowerCase();
 
@@ -46,6 +48,7 @@ function playRound(playerSelection, computerSelection) {
   }
 }
 
+// This function plays 5 rounds of the game and declares the winner
 function game() {
   for (let i = 1; i <= 5; i++) {
     console.log(
