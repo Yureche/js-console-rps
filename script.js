@@ -61,3 +61,4 @@ function game() {
     ? console.log("You won! :)")
     : console.log("You lost! :(");
 }
+
