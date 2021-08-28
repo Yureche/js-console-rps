@@ -1,0 +1,56 @@
+
+body {
+    background-color: #F2AA4CFF;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    margin-top: 3%;
+    text-align: center;
+    color: #101820FF;
+    font-size: 25px;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #101820FF;
+    font-size: 25px;
+    color: #101820FF;
+    width: 10%;
+    margin: auto;
+    padding: 10px;
+}
+
+#result {
+    font-size: 34px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.choices {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice {
+    margin: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.choice:hover {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+#winner-message {
+    font-size: 34px;
+    font-weight: 550;
+    text-align: center;
+}
